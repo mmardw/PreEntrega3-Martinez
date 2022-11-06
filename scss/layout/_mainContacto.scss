@@ -1,0 +1,30 @@
+.Cn1{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.Cn1 p{
+    margin: 5px 150px;
+}
+.Cnf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $fondoSec;
+    color: $fuenteCSec;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+}
+.Cnf label{
+    display: flex;
+    margin-top: 10px;
+}
+.Cnf input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.Cnf textarea{
+    width: 50%;
+}

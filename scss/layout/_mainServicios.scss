@@ -1,0 +1,71 @@
+/* SERVICIOS */
+.grid-prueba{
+    @include PropiedadesGrids (repeat(5,1fr), repeat(7,1fr));
+
+    grid-template-areas: 
+    "h1 h1 h1 h1 h1"
+    "img1 img1 p2 p2 box"
+    "img1 img1 p2 p2 box"
+    "p3 p3 img2 img2 box"
+    "p3 p3 img2 img2 box"
+    "img3 img3 p4 p4 box"
+    "img3 img3 p4 p4 box";
+    margin-bottom: 50px;
+}
+.gridhp1{
+    @include PropiedadesFlex (column,center,none);
+    grid-area: h1;
+    text-align: center;
+    h1{margin-bottom: 30px;}
+}
+.gridimg1{
+    grid-area: img1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.gridp2{
+    @include PropiedadesFlex (column,center,none);
+    grid-area: p2;
+    padding: 0 20px;
+}
+.gridimg2{
+    grid-area: img2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.gridp3{
+    @include PropiedadesFlex (column,center,none);
+    grid-area: p3;
+    padding: 0 20px;
+}
+.gridimg3{
+    grid-area: img3;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.gridp4{
+    @include PropiedadesFlex (column,center,none);
+    grid-area: p4;
+    padding: 0 20px;
+}
+.gridbox{
+    grid-area: box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gridbox a{
+    background-color: $fondoSec;
+    color: $fuenteCSec;
+    border-radius: 20px;
+    margin: 0 40px;
+    text-decoration: none;
+}
+.gridbox a:hover{
+    color: black;
+    background-color: $fuenteCSec;
+}

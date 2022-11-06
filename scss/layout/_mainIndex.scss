@@ -1,0 +1,36 @@
+.Inicio{
+    color: $fuenteCSec;
+    padding: 0;
+}
+.imagen{
+    height: 500px;
+}
+.index{
+    text-align: center;
+    margin: 20px 200px;
+}
+.Fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.V1{
+    margin: 20px 20px;
+    text-align: center;
+}
+.V1 h3{
+    margin-bottom: 6px;
+}
+.V1 iframe{
+    width: 450px;
+    height: 300px;
+    border-radius: 3%;
+}
+.V1 iframe:hover{
+    transform: scale(1.05);
+    animation-duration: 5s;
+}
+
+.V1 p{
+    margin-top: 4px;
+}

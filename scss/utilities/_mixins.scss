@@ -1,0 +1,36 @@
+@mixin Reset ($Margin, $Padding, $Box){
+    margin: $Margin;
+    padding: $Padding;
+    box-sizing: $Box;
+}
+@mixin Fuentes ($Family, $Size, $Color) {
+    font-family: $Family;
+    font-size: $Size;
+    color: $Color;
+}
+@mixin MediaTablet{
+    @media screen and (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin MediaPhone{
+    @media screen and (max-width: 576px){
+        @content;
+    }
+}
+@mixin Animation($Name, $Time) {
+    animation-name: $Name;
+    animation-duration: $Time;
+}
+@mixin PropiedadesGrids ($Column, $Row) {
+    display: grid;
+    grid-template-columns: $Column;
+    grid-template-rows: $Row;
+}
+@mixin PropiedadesFlex ($Direction, $Jusify, $aling){
+    display: flex;
+    flex-direction: $Direction;
+    justify-content: $Jusify;
+    align-items: $aling;
+}

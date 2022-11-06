@@ -1,0 +1,39 @@
+@include MediaPhone {
+/* GENERAL */
+    .Derechos, .Redes{
+        font-size: 60%;
+    }
+/* INDEX */
+    .index {
+        margin: 5px 20px;
+    }
+    .V1 iframe{
+        width: 100%;
+}
+/* NOSOTROS */
+    .Nt1 p{
+        margin: 5px 70px;
+    }
+/* SERVICIOS */
+    .mediap{
+        padding: 0 25px;
+    }
+/* TRABAJA CON NOSOTROS */
+    .Tcnf{
+        margin-bottom: 5px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Tcn1 p{
+        margin: 5px 100px;
+    }
+/* CONTACTO */
+    .Cnf{
+        margin-bottom: 5px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Cn1 p{
+        margin: 5px 100px;
+    }
+}

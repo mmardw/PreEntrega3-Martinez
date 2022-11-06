@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    background-color: $fondoSec;
+    color: $fuenteCSec;
+    padding-top: 8px;
+}
+.Derechos, .Redes {
+    width: 100%;
+    margin: 10px 15px;
+}
+.Derechos{
+    margin-left: 10px;
+}
+.Redes{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    column-gap: 15px;
+}
+.Redes a{
+    text-decoration: none;
+    color: $fuenteCSec;
+}

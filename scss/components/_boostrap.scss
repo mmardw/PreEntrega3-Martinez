@@ -1,0 +1,14 @@
+.Menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-collapse{
+    ul{
+        display: flex;
+        flex-direction: column;
+        li{
+            text-align: right;
+            padding-right: 5px;
+        }
+    }
+}
