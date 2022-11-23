@@ -1,9 +1,9 @@
 .Tcn1{
     margin-bottom: 15px;
     text-align: center;
-}
-.Tcn1 p{
-    margin: 5px 150px;
+    p{
+        margin: 5px 150px;
+    }
 }
 .Tcnf{
     display: flex;
@@ -15,16 +15,16 @@
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 15px;
-}
-.Tcnf label{
-    display: flex;
-    margin-top: 10px;
-}
-.Tcnf input{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 50%;
-}
-.Tcnf textarea{
-    width: 50%;
+    label{
+        display: flex;
+        margin-top: 10px;
+    }
+    input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    textarea{
+        width: 50%;
+    }
 }

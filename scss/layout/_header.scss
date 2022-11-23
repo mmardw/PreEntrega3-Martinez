@@ -10,10 +10,10 @@ header{
 .Logo{
     width: 100%;
     margin-left: 10px;
-}
-.Logo a{
-    text-decoration: none;
-    color: $fuenteCSec;
+    a{
+        text-decoration: none;
+        color: $fuenteCSec;
+    }
 }
 .container-fluid{
     padding-right: 0;

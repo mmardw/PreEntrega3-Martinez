@@ -16,8 +16,8 @@ footer{
     justify-content: flex-end;
     margin-right: 15px;
     column-gap: 15px;
-}
-.Redes a{
-    text-decoration: none;
-    color: $fuenteCSec;
+    a{
+        text-decoration: none;
+        color: $fuenteCSec;
+    }
 }

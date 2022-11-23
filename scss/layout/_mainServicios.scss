@@ -57,15 +57,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.gridbox a{
-    background-color: $fondoSec;
-    color: $fuenteCSec;
-    border-radius: 20px;
-    margin: 0 40px;
-    text-decoration: none;
-}
-.gridbox a:hover{
-    color: black;
-    background-color: $fuenteCSec;
+    a{
+        background-color: $fondoSec;
+        color: $fuenteCSec;
+        border-radius: 20px;
+        margin: 0 40px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: black;
+        background-color: $fuenteCSec;
+    }
 }
